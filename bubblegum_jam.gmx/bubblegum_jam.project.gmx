@@ -5,9 +5,24 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound"/>
-  <sprites name="sprites"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_player_size_16</sprite>
+    <sprite>sprites\spr_player_size_32</sprite>
+    <sprite>sprites\spr_player_size_48</sprite>
+    <sprite>sprites\spr_wall</sprite>
+  </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <scripts name="scripts">
+    <script>scripts\scr_player_move.gml</script>
+  </scripts>
+  <objects name="objects">
+    <object>objects\obj_player</object>
+    <object>objects\obj_wall</object>
+  </objects>
+  <rooms name="rooms">
+    <room>rooms\rm_village</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>
