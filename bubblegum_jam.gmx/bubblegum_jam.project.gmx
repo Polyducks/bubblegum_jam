@@ -6,19 +6,32 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_player_size_16</sprite>
-    <sprite>sprites\spr_player_size_32</sprite>
-    <sprite>sprites\spr_player_size_48</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_player_32_down</sprite>
+      <sprite>sprites\spr_player_32_left</sprite>
+      <sprite>sprites\spr_player_32_right</sprite>
+      <sprite>sprites\spr_player_32_up</sprite>
+      <sprite>sprites\spr_player_32_shadow</sprite>
+      <sprite>sprites\spr_player_16_down</sprite>
+      <sprite>sprites\spr_player_16_left</sprite>
+      <sprite>sprites\spr_player_16_right</sprite>
+      <sprite>sprites\spr_player_16_up</sprite>
+      <sprite>sprites\spr_player_16_shadow</sprite>
+    </sprites>
     <sprite>sprites\spr_wall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <scripts name="scripts">
     <script>scripts\scr_player_move.gml</script>
+    <script>scripts\scr_get_input.gml</script>
+    <script>scripts\scr_get_face.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
     <object>objects\obj_wall</object>
+    <object>objects\obj_camera</object>
+    <object>objects\obj_parent_entity</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_village</room>

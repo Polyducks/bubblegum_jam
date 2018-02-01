@@ -354,7 +354,7 @@
     <option_mac_enable_steam>0</option_mac_enable_steam>
     <option_mac_fullscreen>0</option_mac_fullscreen>
     <option_mac_icon_png>Configs\Default\mac\icon512.png</option_mac_icon_png>
-    <option_mac_interpolate>-1</option_mac_interpolate>
+    <option_mac_interpolate>0</option_mac_interpolate>
     <option_mac_major_version>1</option_mac_major_version>
     <option_mac_menu_dock>0</option_mac_menu_dock>
     <option_mac_minor_version>0</option_mac_minor_version>
@@ -467,7 +467,7 @@
     <option_use_new_audio>True</option_use_new_audio>
     <option_variableerrors>False</option_variableerrors>
     <option_version>100</option_version>
-    <option_version_build>0</option_version_build>
+    <option_version_build>1</option_version_build>
     <option_version_company></option_version_company>
     <option_version_copyright></option_version_copyright>
     <option_version_description></option_version_description>
@@ -486,7 +486,7 @@
     <option_win8_certificate_location>Windows8_TemporaryKey.pfx</option_win8_certificate_location>
     <option_win8_display_name>bubblegum_jam</option_win8_display_name>
     <option_win8_internet_capable>0</option_win8_internet_capable>
-    <option_win8_interpolate>-1</option_win8_interpolate>
+    <option_win8_interpolate>0</option_win8_interpolate>
     <option_win8_landscape_allowed>-1</option_win8_landscape_allowed>
     <option_win8_landscape_flipped_allowed>-1</option_win8_landscape_flipped_allowed>
     <option_win8_logo>Configs\Default\Windows8\logos\logo150.png</option_win8_logo>
@@ -507,7 +507,7 @@
     <option_win8_scaling_stretch>false</option_win8_scaling_stretch>
     <option_win8_search_capable>0</option_win8_search_capable>
     <option_win8_small_logo>Configs\Default\Windows8\logos\logo30.png</option_win8_small_logo>
-    <option_win8_splash_background_colour>#000000</option_win8_splash_background_colour>
+    <option_win8_splash_background_colour>#FFFFFF</option_win8_splash_background_colour>
     <option_win8_splash_png>Configs\Default\Windows8\splashscreen.png</option_win8_splash_png>
     <option_win8_store_logo>Configs\Default\Windows8\logos\logo50.png</option_win8_store_logo>
     <option_win8_texture_page>1024</option_win8_texture_page>
@@ -655,5 +655,12 @@
     <option_xbone_texture_page>1024</option_xbone_texture_page>
     <option_xbone_title_id></option_xbone_title_id>
   </Options>
-  <ConfigConstants/>
+  <ConfigConstants>
+    <constants number="4">
+      <constant name="RIGHT">0</constant>
+      <constant name="UP">1</constant>
+      <constant name="LEFT">2</constant>
+      <constant name="DOWN">3</constant>
+    </constants>
+  </ConfigConstants>
 </Config>
