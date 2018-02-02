@@ -1,6 +1,12 @@
 ///scr_player_move
 
-// Get the axis
+//Enlarge on space key
+if ( space_key ){
+    state = scr_player_enlarge;
+}
+
+
+//Get the axis
 var xaxis = ( right_key - left_key );
 var yaxis = ( down_key - up_key );
 

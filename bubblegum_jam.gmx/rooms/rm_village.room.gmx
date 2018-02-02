@@ -3,7 +3,7 @@
   <caption></caption>
   <width>600</width>
   <height>600</height>
-  <vsnap>8</vsnap>
+  <vsnap>4</vsnap>
   <hsnap>8</hsnap>
   <isometric>0</isometric>
   <speed>30</speed>
@@ -65,7 +65,11 @@
     <instance objName="obj_wall" x="208" y="88" name="inst_42C1476F" locked="0" code="" scaleX="1" scaleY="5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="120" y="112" name="inst_D32D360B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="72" y="112" name="inst_A6123997" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="32" y="56" name="inst_52D23DBA" locked="0" code="" scaleX="2.32258057594299" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="120" y="152" name="inst_DFC8E426" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="72" y="160" name="inst_6B8D1C9E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="32" y="52" name="inst_444B3EB9" locked="0" code="" scaleX="2.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="32" y="36" name="inst_E3720791" locked="0" code="" scaleX="2.25" scaleY="0.25" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="32" y="72" name="inst_A28D706A" locked="0" code="" scaleX="2.25" scaleY="0.25" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>-1</PhysicsWorld>
