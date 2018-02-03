@@ -49,33 +49,3 @@ if ( inst == noone ){
         y += inst.bbox_bottom - bbox_top + 1;
     }
 }
-
-/*var xx = x + hspd;
-if ( !place_meeting( xx, y, obj_wall )){
-    x = xx;    
-}
-
-var yy = y+vspd;
-if ( !place_meeting( x, yy, obj_wall )){
-    y = yy;
-}*/
-
-
-
-//Control the sprite
-//image_speed = 0.2;
-
-switch (face){
-    case RIGHT:
-        sprite_index = asset_get_index("spr_player_" + string(size) + "_right");
-    break;
-    case UP:
-        sprite_index = asset_get_index("spr_player_" + string(size) + "_up");
-    break;
-    case LEFT:
-        sprite_index = asset_get_index("spr_player_" + string(size) + "_left");
-    break;
-    case DOWN:
-        sprite_index = asset_get_index("spr_player_" + string(size) + "_down");
-    break;
-}
