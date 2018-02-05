@@ -26,6 +26,9 @@
       <sprite>sprites\spr_friend_right</sprite>
       <sprite>sprites\spr_friend_shadow</sprite>
     </sprites>
+    <sprites name="GUI">
+      <sprite>sprites\spr_GUI_stomach</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tiles_village_foreground</background>
@@ -46,6 +49,7 @@
     <object>objects\obj_camera</object>
     <object>objects\obj_parent_entity</object>
     <object>objects\obj_friend</object>
+    <object>objects\obj_GUI_stomach</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_village</room>
