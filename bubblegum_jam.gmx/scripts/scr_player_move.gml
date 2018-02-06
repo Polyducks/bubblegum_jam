@@ -4,6 +4,9 @@
 if ( space_key ){
     state = scr_player_enlarge;
 }
+if ( z_key or x_key or c_key or v_key ){
+    scr_player_emote();
+}
 
 
 //Get the axis

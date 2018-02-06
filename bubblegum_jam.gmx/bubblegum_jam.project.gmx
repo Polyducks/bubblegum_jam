@@ -27,8 +27,11 @@
       <sprite>sprites\spr_friend_shadow</sprite>
     </sprites>
     <sprites name="GUI">
-      <sprite>sprites\spr_GUI_stomach</sprite>
+      <sprite>sprites\spr_gui_stomach</sprite>
+      <sprite>sprites\spr_gui_emote_banner</sprite>
+      <sprite>sprites\spr_gui_emote_speech</sprite>
     </sprites>
+    <sprite>sprites\spr_fence</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tiles_village_foreground</background>
@@ -36,12 +39,17 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\scr_make_speech_bubble.gml</script>
+    <script>scripts\scr_player_emote.gml</script>
     <script>scripts\scr_player_move.gml</script>
     <script>scripts\scr_get_input.gml</script>
     <script>scripts\scr_get_face.gml</script>
     <script>scripts\scr_player_enlarge.gml</script>
     <script>scripts\scr_render_player.gml</script>
     <script>scripts\scr_anti_intersection.gml</script>
+    <script>scripts\scr_friend_interact.gml</script>
+    <script>scripts\scr_friend_idle.gml</script>
+    <script>scripts\scr_friend_draw.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -49,7 +57,9 @@
     <object>objects\obj_camera</object>
     <object>objects\obj_parent_entity</object>
     <object>objects\obj_friend</object>
-    <object>objects\obj_GUI_stomach</object>
+    <object>objects\obj_gui_stomach</object>
+    <object>objects\obj_fence</object>
+    <object>objects\obj_gui_emote_speech</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_village</room>
