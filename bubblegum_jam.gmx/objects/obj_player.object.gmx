@@ -43,6 +43,7 @@ sprite_offset_y = 0;
 sprite_offset_x = 0;
 //-------EMOTE---------
 emote = -1;
+speaking = false;
 speech_bubble = noone;
 
 state = scr_player_move;
@@ -75,6 +76,7 @@ if ( speech_bubble != noone ){
     with( speech_bubble ){
         instance_destroy();
     }
+    speech_bubble = noone;
 }
 </string>
           </argument>

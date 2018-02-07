@@ -66,6 +66,7 @@ if ( speaking ){
         with( speech_bubble ){
             instance_destroy();
         }
+        speech_bubble = noone;
     }
 }
 </string>

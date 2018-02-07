@@ -10,6 +10,11 @@ if ( distance_to_object( obj_player ) > vision ){
         speaking = true;
         thinking = true;
         scr_make_speech_bubble();
+        speech_bubble.emote = floor( random(4) );
+    }else if (speaking){
+        if ( obj_player.emote == emote ){
+            
+        }
     }
-
+    
 }
