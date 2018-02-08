@@ -31,12 +31,18 @@ state = scr_friend_idle;
 dir = 0;
 //used for pausing the creature
 thinking = false;
+//interaction
 speaking = false;
 celebrating = false;
 speaking_progress = 0;
 speech_bubble = noone;
 emote = 0;
+//idle
 vision = 16;
+//spit
+spit_move = 0;
+spit_distance = 32;
+spit_speed = 2;
 </string>
           </argument>
         </arguments>

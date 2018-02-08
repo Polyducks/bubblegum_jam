@@ -6,6 +6,7 @@ y += yadjust;
 if ( x == obj_player.x and
      y == obj_player.y ){
      obj_player.state = scr_player_enlarge;
-     obj_player.eaten = object_get_name(self);
+     //var object_name = object_get_name(self);
+     obj_player.eaten = obj_friend;
      instance_destroy();
 }

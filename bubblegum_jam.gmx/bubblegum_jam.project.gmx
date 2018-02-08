@@ -5,7 +5,7 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_space_audio</sound>
+    <sound>sound\snd_main_loop</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -43,19 +43,27 @@
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
-    <script>scripts\scr_make_speech_bubble.gml</script>
-    <script>scripts\scr_player_emote.gml</script>
-    <script>scripts\scr_player_move.gml</script>
-    <script>scripts\scr_get_input.gml</script>
-    <script>scripts\scr_get_face.gml</script>
-    <script>scripts\scr_player_enlarge.gml</script>
-    <script>scripts\scr_render_player.gml</script>
-    <script>scripts\scr_anti_intersection.gml</script>
-    <script>scripts\scr_friend_interact.gml</script>
-    <script>scripts\scr_friend_idle.gml</script>
-    <script>scripts\scr_friend_draw.gml</script>
-    <script>scripts\scr_destroy_speech_bubble.gml</script>
-    <script>scripts\scr_friend_suck.gml</script>
+    <scripts name="player">
+      <script>scripts\scr_player_emote.gml</script>
+      <script>scripts\scr_player_move.gml</script>
+      <script>scripts\scr_player_enlarge.gml</script>
+      <script>scripts\scr_render_player.gml</script>
+      <script>scripts\scr_anti_intersection.gml</script>
+      <script>scripts\scr_player_spit_friend.gml</script>
+    </scripts>
+    <scripts name="friend">
+      <script>scripts\scr_friend_interact.gml</script>
+      <script>scripts\scr_friend_idle.gml</script>
+      <script>scripts\scr_friend_draw.gml</script>
+      <script>scripts\scr_friend_suck.gml</script>
+      <script>scripts\scr_friend_spit.gml</script>
+    </scripts>
+    <scripts name="helper functions">
+      <script>scripts\scr_get_input.gml</script>
+      <script>scripts\scr_make_speech_bubble.gml</script>
+      <script>scripts\scr_destroy_speech_bubble.gml</script>
+      <script>scripts\scr_get_face.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>

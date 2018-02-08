@@ -109,11 +109,7 @@ sprite_offset_y = 0;
 size = new_size;
 image_xscale = 1;
 image_yscale = 1;
-state = scr_player_move;
-if ( eaten != noone ){
-    instance_create(x,y,eaten);
-    eaten = noone;
-}
+scr_player_spit_friend();
 </string>
           </argument>
         </arguments>

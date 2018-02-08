@@ -55,10 +55,11 @@ visible = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>x = creator.x+xoffset;
+            <string>///line up with the creator
+x = creator.x+xoffset;
 y = creator.y+yoffset;
 if ( emote != -1 ){
-    depth = -y;
+    depth = -1000-y;
     image_index = emote;
     visible = true;
 }else{
