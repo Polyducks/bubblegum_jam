@@ -4,7 +4,9 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\snd_space_audio</sound>
+  </sounds>
   <sprites name="sprites">
     <sprites name="player">
       <sprite>sprites\spr_player_32_down</sprite>
@@ -23,6 +25,8 @@
       <sprite>sprites\spr_friend_up</sprite>
       <sprite>sprites\spr_friend_left</sprite>
       <sprite>sprites\spr_friend_down</sprite>
+      <sprite>sprites\spr_friend_angry</sprite>
+      <sprite>sprites\spr_friend_happy</sprite>
       <sprite>sprites\spr_friend_right</sprite>
       <sprite>sprites\spr_friend_shadow</sprite>
     </sprites>
@@ -50,6 +54,8 @@
     <script>scripts\scr_friend_interact.gml</script>
     <script>scripts\scr_friend_idle.gml</script>
     <script>scripts\scr_friend_draw.gml</script>
+    <script>scripts\scr_destroy_speech_bubble.gml</script>
+    <script>scripts\scr_friend_suck.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>

@@ -1,7 +1,7 @@
 //scr_friend_idle()
 
 //check if player is near
-if ( distance_to_object( obj_player ) < vision ){
+if ( distance_to_object( obj_player ) < vision and obj_player.eaten==noone ){
     alarm[0] = 0;
     thinking = false;
     state = scr_friend_interact;

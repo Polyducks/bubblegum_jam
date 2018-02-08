@@ -32,6 +32,7 @@ dir = 0;
 //used for pausing the creature
 thinking = false;
 speaking = false;
+celebrating = false;
 speaking_progress = 0;
 speech_bubble = noone;
 emote = 0;
@@ -60,6 +61,7 @@ vision = 16;
             <kind>1</kind>
             <string>///return the friend from thinking
 thinking = false;
+celebrating = false;
 if ( speaking ){
     speaking = false;
     if ( speech_bubble != noone ){

@@ -45,6 +45,8 @@ sprite_offset_x = 0;
 emote = -1;
 speaking = false;
 speech_bubble = noone;
+//-------EATING---------
+eaten = noone;
 
 state = scr_player_move;
 
@@ -108,6 +110,10 @@ size = new_size;
 image_xscale = 1;
 image_yscale = 1;
 state = scr_player_move;
+if ( eaten != noone ){
+    instance_create(x,y,eaten);
+    eaten = noone;
+}
 </string>
           </argument>
         </arguments>
