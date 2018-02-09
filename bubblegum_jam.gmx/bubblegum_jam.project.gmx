@@ -34,11 +34,11 @@
       <sprite>sprites\spr_friend_shadow</sprite>
     </sprites>
     <sprites name="GUI">
-      <sprite>sprites\spr_gui_stomach</sprite>
       <sprite>sprites\spr_gui_emote_banner</sprite>
       <sprite>sprites\spr_gui_emote_speech</sprite>
     </sprites>
     <sprite>sprites\spr_fence</sprite>
+    <sprite>sprites\spr_emote_bar_gu</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tiles_village_foreground</background>
@@ -74,7 +74,7 @@
     <object>objects\obj_camera</object>
     <object>objects\obj_parent_entity</object>
     <object>objects\obj_friend</object>
-    <object>objects\obj_gui_stomach</object>
+    <object>objects\obj_gui</object>
     <object>objects\obj_fence</object>
     <object>objects\obj_gui_emote_speech</object>
   </objects>

@@ -26,10 +26,10 @@
           <argument>
             <kind>1</kind>
             <string>///Render GUI
-var h = sprite_get_height(spr_gui_stomach);
-var resize_scale = view_hport / (h-1);
+//var h = sprite_get_height(spr_gui_stomach);
+//var resize_scale = view_hport / (h-1);
 //ROUNDING ERROR DUE TO PIXEL ROUNDING
-draw_sprite_ext( spr_gui_stomach, 0, view_wport, view_hport, resize_scale, resize_scale, 0, c_white, 1 );
+//draw_sprite_ext( spr_gui_stomach, 0, view_wport, view_hport, resize_scale, resize_scale, 0, c_white, 1 );
 </string>
           </argument>
         </arguments>
