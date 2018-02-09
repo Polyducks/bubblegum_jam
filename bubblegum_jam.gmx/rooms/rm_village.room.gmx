@@ -25,7 +25,7 @@ for(var yy=0; yy&lt;room_height; yy+=16;)
         }
     }
 }
-
+audio_sound_gain( snd_main_loop, 0.75, 0 );
 audio_play_sound( snd_main_loop, 10, true );</code>
   <enableViews>-1</enableViews>
   <clearViewBackground>-1</clearViewBackground>

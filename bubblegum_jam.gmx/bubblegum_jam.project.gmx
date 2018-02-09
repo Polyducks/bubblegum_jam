@@ -6,6 +6,9 @@
   <NewExtensions/>
   <sounds name="sound">
     <sound>sound\snd_main_loop</sound>
+    <sound>sound\snd_burp</sound>
+    <sound>sound\snd_grow</sound>
+    <sound>sound\snd_shrink</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
