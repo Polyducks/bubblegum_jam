@@ -56,6 +56,10 @@ var n_y1 = bbox_top+vspd;
 var n_x2 = bbox_right+hspd;
 var n_y2 = bbox_bottom+vspd;
 
+var xpush = 0;
+var ypush = 0;
+var collision = false;
+
 with( all ){
     if (variable_instance_exists(id, "collides") and instance_exists(self)){
         //check collides
@@ -73,8 +77,7 @@ with( all ){
                 }
             }
             if ( collides ){
-                var xpush = 0;
-                var ypush = 0;
+                collsion = true;
                 //get nearest edge
                 var near_left = abs(bbox_left - obj_player.bbox_right);
                 var near_right = abs(bbox_right - obj_player.bbox_left);
@@ -85,20 +88,21 @@ with( all ){
                 //push to the outside of that edge
                 if ( near_left == nearest ){
                     xpush += near_left-1;
-                    xx = originalx+xpush;
                 }else if ( near_right == nearest ){
                     xpush -= near_right-1;
-                    xx = originalx+xpush;
                 }else if ( near_top == nearest ){
                     ypush += near_top-1;
-                    yy = originaly+ypush;
                 }else if ( near_bottom == nearest ){
                     ypush -= near_bottom-1;
-                    yy = originaly+ypush;
                 }
             }
         }
     }
+}
+
+if ( collision ){
+    xx = originalx+xpush;
+    yy = originaly+ypush;
 }
 
 x = xx;
