@@ -44,6 +44,7 @@
     <sound>sound\snd_music_loop</sound>
     <sounds name="player">
       <sound>sound\snd_confirmation</sound>
+      <sound>sound\snd_denial</sound>
       <sound>sound\snd_grow</sound>
       <sound>sound\snd_shrink</sound>
     </sounds>

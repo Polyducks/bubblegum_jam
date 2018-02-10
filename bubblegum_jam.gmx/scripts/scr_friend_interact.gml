@@ -22,12 +22,13 @@ if ( distance_to_object( obj_player ) > vision or obj_player.eaten!=noone){
         alarm[0]= room_speed*2;
     }else if (speaking and !celebrating and obj_player.emote!= -1){
         audio_group_stop_all(friend_emote);
-        audio_play_sound(snd_confirmation, 1, false);
         celebrating = true;
         if ( obj_player.emote == emote ){
+            audio_play_sound(snd_confirmation, 1, false);
             sprite_index = spr_friend_happy;
             speaking_progress++;
         }else{
+            audio_play_sound(snd_denial, 1, false);
             sprite_index = spr_friend_angry;
             speaking_progress = 0;
         }
