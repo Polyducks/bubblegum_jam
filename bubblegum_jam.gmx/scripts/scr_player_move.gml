@@ -8,6 +8,11 @@ if ( z_key or x_key or c_key or v_key ){
     scr_player_emote();
 }
 
+if ( size == 16 ){
+    spd = 3;
+}else{
+    spd = 2;
+}
 
 //Get the axis
 var xaxis = ( right_key - left_key );
@@ -53,8 +58,51 @@ var n_y2 = bbox_bottom+vspd;
 
 with( all ){
     if (variable_instance_exists(id, "collides") and instance_exists(self)){
-        //check collide on x
+        //check collides
         if ( !(
+                bbox_left > n_x2 or
+                bbox_right < n_x1 or
+                bbox_top > n_y2 or
+                bbox_bottom < n_y1
+            )
+        ){
+            //break out of the intersection of the object is a fence with no collision
+            if ( object_get_name(object_index) == "obj_fence" ){
+                if ( obj_player.size == 32 ){
+                    image_index = 1;
+                    collides = false;
+                    break;
+                }
+            }
+            if ( collides ){
+                var xpush = 0;
+                var ypush = 0;
+                //get nearest edge
+                var near_left = abs(bbox_left - obj_player.bbox_right);
+                var near_right = abs(bbox_right - obj_player.bbox_left);
+                var near_top = abs(bbox_top - obj_player.bbox_bottom);
+                var near_bottom = abs(bbox_bottom - obj_player.bbox_top);
+                
+                var nearest = min( near_left, near_right, near_top, near_bottom );
+                //push to the outside of that edge
+                if ( near_left == nearest ){
+                    xpush += near_left-1;
+                    xx = originalx+xpush;
+                }else if ( near_right == nearest ){
+                    xpush -= near_right-1;
+                    xx = originalx+xpush;
+                }else if ( near_top == nearest ){
+                    ypush += near_top-1;
+                    yy = originaly+ypush;
+                }else if ( near_bottom == nearest ){
+                    ypush -= near_bottom-1;
+                    yy = originaly+ypush;
+                }
+            }
+        }
+        
+        //check collide on x
+        /*if ( !(
                 bbox_left > n_x2 or
                 bbox_right < n_x1 or
                 bbox_top > o_y2 or
@@ -72,10 +120,10 @@ with( all ){
             if ( collides ){
                 xx = originalx;
             }
-        }
+        }*/
     
         //check collide on y
-        if ( !(
+        /*if ( !(
                 bbox_left > o_x2 or
                 bbox_right < o_x1 or
                 bbox_top > n_y2 or
@@ -93,7 +141,7 @@ with( all ){
             if ( collides ){
                 yy = originaly;
             }
-        }
+        }*/
     }
 }
 

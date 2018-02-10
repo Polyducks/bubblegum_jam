@@ -28,7 +28,7 @@
             <string>///Initialise
 event_inherited();
 //-------MOVEMENT---------
-spd = 2;
+spd = 3;
 hspd = 0;
 vspd = 0;
 len = 0;
