@@ -110,6 +110,7 @@
       <script>scripts\scr_get_face.gml</script>
     </scripts>
     <script>scripts\scr_fence_destroy.gml</script>
+    <script>scripts\scr_add_to_colliders_array.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>

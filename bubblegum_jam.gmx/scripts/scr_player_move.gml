@@ -60,6 +60,12 @@ var xpush = 0;
 var ypush = 0;
 var collision = false;
 
+//flags to note where the intersections are happening
+var top_interaction = false;
+var bottom_interaction = false;
+var left_interaction = false;
+var right_interaction = false;
+
 with( all ){
     if (variable_instance_exists(id, "collides") and instance_exists(self)){
         //check collides
@@ -87,23 +93,29 @@ with( all ){
                 var nearest = min( near_left, near_right, near_top, near_bottom );
                 //push to the outside of that edge
                 if ( near_left == nearest ){
-                    xpush += near_left-1;
+                    left_interaction = true;
+                    xpush = near_left-1;
                 }else if ( near_right == nearest ){
-                    xpush -= near_right-1;
+                    right_interaction = true;
+                    xpush = -near_right-1;
                 }else if ( near_top == nearest ){
-                    ypush += near_top-1;
+                    top_interaction = true;
+                    ypush = near_top-1;
                 }else if ( near_bottom == nearest ){
-                    ypush -= near_bottom-1;
+                    bottom_interaction = true;
+                    ypush = -near_bottom-1;
                 }
             }
         }
     }
 }
 
-if ( collision ){
-    xx = originalx+xpush;
-    yy = originaly+ypush;
+if ( !(top_interaction and bottom_interaction) and
+    !(left_interaction and right_interaction)){
+    if ( collision ){
+        xx = originalx+xpush;
+        yy = originaly+ypush;
+    }
+    x = xx;
+    y = yy;
 }
-
-x = xx;
-y = yy;
