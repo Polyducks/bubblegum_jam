@@ -9,30 +9,42 @@ var bottom_interaction = false;
 var left_interaction = false;
 var right_interaction = false;
   
-with( obj_wall ){
-    var inst = instance_place( floor(x), floor(y), obj_player );
-    if ( inst != noone ){
-        //get nearest edge
-        var near_left = abs(bbox_left - inst.bbox_right);
-        var near_right = abs(bbox_right - inst.bbox_left);
-        var near_top = abs(bbox_top - inst.bbox_bottom);
-        var near_bottom = abs(bbox_bottom - inst.bbox_top);
-        
-        var nearest = min( near_left, near_right, near_top, near_bottom );
-        
-        //push to the outside of that edge
-        if ( near_left == nearest ){
-            left_interaction = true;
-            xpush -= near_left;
-        }else if ( near_right == nearest ){
-            right_interaction = true;
-            xpush += near_right;
-        }else if ( near_top == nearest ){
-            top_interaction = true;
-            ypush -= near_top;
-        }else if ( near_bottom == nearest ){
-            bottom_interaction = true;
-            ypush += near_bottom;
+with( all ){
+    if (variable_instance_exists(id, "collides") and instance_exists(self)){
+        var inst = instance_place( floor(x), floor(y), obj_player );
+        if ( inst!= noone and collides ){
+            //break out of the intersection of the object is a fence with no collision
+            if ( object_get_name(object_index) == "obj_fence" ){
+                if ( obj_player.size == 32 ){
+                    image_index = 1;
+                    collides = false;
+                    break;
+                }
+            }
+            if ( collides ){
+                //get nearest edge
+                var near_left = abs(bbox_left - inst.bbox_right);
+                var near_right = abs(bbox_right - inst.bbox_left);
+                var near_top = abs(bbox_top - inst.bbox_bottom);
+                var near_bottom = abs(bbox_bottom - inst.bbox_top);
+                
+                var nearest = min( near_left, near_right, near_top, near_bottom );
+                
+                //push to the outside of that edge
+                if ( near_left == nearest ){
+                    left_interaction = true;
+                    xpush -= near_left;
+                }else if ( near_right == nearest ){
+                    right_interaction = true;
+                    xpush += near_right;
+                }else if ( near_top == nearest ){
+                    top_interaction = true;
+                    ypush -= near_top;
+                }else if ( near_bottom == nearest ){
+                    bottom_interaction = true;
+                    ypush += near_bottom;
+                }
+            }
         }
     }
 }

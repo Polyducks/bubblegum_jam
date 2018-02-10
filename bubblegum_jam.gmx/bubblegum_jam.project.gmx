@@ -40,6 +40,7 @@
     <sprite>sprites\spr_fence</sprite>
     <sprite>sprites\spr_gui_emote_bar</sprite>
     <sprite>sprites\spr_spaceship</sprite>
+    <sprite>sprites\spr_tree</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_tiles_village_foreground</background>
@@ -79,6 +80,7 @@
     <object>objects\obj_fence</object>
     <object>objects\obj_gui_emote_speech</object>
     <object>objects\obj_spaceship</object>
+    <object>objects\obj_tree</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_village</room>

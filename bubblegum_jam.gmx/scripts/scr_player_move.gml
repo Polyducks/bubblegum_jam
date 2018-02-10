@@ -51,114 +51,51 @@ var n_y1 = bbox_top+vspd;
 var n_x2 = bbox_right+hspd;
 var n_y2 = bbox_bottom+vspd;
 
-with(all){
-//    if (!is_undefined(self.collides)){
+with( all ){
     if (variable_instance_exists(id, "collides") and instance_exists(self)){
-        if (collides){
-            //check new x
-            if ( !(
-                    bbox_left > n_x2 or
-                    bbox_right < n_x1 or
-                    bbox_top > o_y2 or
-                    bbox_bottom < o_y1
-                )
-            ){
-                xblock = true;
-                if ( object_get_name(object_index) == "obj_fence" ){
-                    x_fence_collision = self;
-                }else{
-                    x_wall_collision = self;
+        //check collide on x
+        if ( !(
+                bbox_left > n_x2 or
+                bbox_right < n_x1 or
+                bbox_top > o_y2 or
+                bbox_bottom < o_y1
+            )
+        ){
+            //break out of the intersection of the object is a fence with no collision
+            if ( object_get_name(object_index) == "obj_fence" ){
+                if ( obj_player.size == 32 ){
+                    image_index = 1;
+                    collides = false;
+                    break;
                 }
             }
-            //check new y
-            if ( !(
-                    bbox_left > o_x2 or
-                    bbox_right < o_x1 or
-                    bbox_top > n_y2 or
-                    bbox_bottom < n_y1
-                )
-            ){
-                yblock = true;
-                if ( object_get_name(object_index) == "obj_fence" ){
-                    y_fence_collision = self;
-                }else{
-                    y_wall_collision = self;
+            if ( collides ){
+                xx = originalx;
+            }
+        }
+    
+        //check collide on y
+        if ( !(
+                bbox_left > o_x2 or
+                bbox_right < o_x1 or
+                bbox_top > n_y2 or
+                bbox_bottom < n_y1
+            )
+        ){
+            //break out of the intersection of the object is a fence with no collision
+            if ( object_get_name(object_index) == "obj_fence" ){
+                if ( obj_player.size == 32 ){
+                    image_index = 1;
+                    collides = false;
+                    break;
                 }
+            }
+            if ( collides ){
+                yy = originaly;
             }
         }
     }
 }
 
-//CHECK X COLLISIONS
-if ( !xblock ){
-    x = xx;
-//x is blocked by a fence only and big enough to crash through
-}else if ( x_fence_collision!=noone and size == 32 ){
-    x = xx;
-    if ( instance_exists( x_fence_collision ) ){
-        with ( x_fence_collision ){
-            collides = false;
-            image_index = 1;
-        }
-        x_fence_collision = noone;
-    }
-}else{
-    var inst = noone;
-    var fence_distance = 99999;
-    var wall_distance = 99999;
-    if ( x_fence_collision!=noone ){
-        fence_distance = distance_to_object( x_fence_collision );
-    }
-    if ( x_wall_collision!=noone ){
-        wall_distance = distance_to_object( x_wall_collision );
-    }
-    if ( fence_distance < wall_distance ){
-        inst = x_fence_collision;
-    }else{
-        inst = x_wall_collision;
-    }
-    if ( inst!= noone ){
-        if ( bbox_right < inst.bbox_left-1 ){
-            x += inst.bbox_left - bbox_right - 1;
-        }else if ( bbox_left > inst.bbox_right+1 ){
-            x += inst.bbox_right - bbox_left + 1;
-        }
-    }
-}
-
-//CHECK Y COLLISIONS
-if ( !yblock ){
-    y = yy;
-//x is blocked by a fence only and big enough to crash through
-}else if ( y_fence_collision!=noone and size == 32 ){
-    y = yy;
-    if ( instance_exists( y_fence_collision ) ){
-        with ( y_fence_collision ){
-            collides = false;
-            image_index = 1;
-        }
-        y_fence_collision = noone;
-    }
-}else{
-    var inst = noone;
-    var fence_distance = 99999;
-    var wall_distance = 99999;
-    if ( y_fence_collision!=noone ){
-        fence_distance = distance_to_object( y_fence_collision );
-    }
-    if ( y_wall_collision!=noone ){
-        wall_distance = distance_to_object( y_wall_collision );
-    }
-    if ( fence_distance < wall_distance ){
-        inst = y_fence_collision;
-    }else{
-        inst = y_wall_collision;
-    }
-    if ( inst!= noone ){
-        if ( bbox_bottom < inst.bbox_top-1 ){
-            y += inst.bbox_top - bbox_bottom - 1;
-        }else if ( bbox_top > inst.bbox_bottom+1 ){
-            y += inst.bbox_bottom - bbox_top + 1;
-        }
-    }
-}
+x = xx;
+y = yy;
