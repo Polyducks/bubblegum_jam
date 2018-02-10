@@ -16,6 +16,7 @@ if ( distance_to_object( obj_player ) > vision or obj_player.eaten!=noone){
         thinking = true;
         scr_make_speech_bubble();
         emote = floor( random(4) );
+        scr_friend_play_emote_sound();
         speech_bubble.emote = emote;
         sprite_index = spr_friend_down;
         alarm[0]= room_speed*2;

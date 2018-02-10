@@ -69,9 +69,7 @@ with( all ){
             //break out of the intersection of the object is a fence with no collision
             if ( object_get_name(object_index) == "obj_fence" ){
                 if ( obj_player.size == 32 ){
-                    image_index = 1;
-                    collides = false;
-                    break;
+                    scr_fence_destroy();
                 }
             }
             if ( collides ){
@@ -100,48 +98,6 @@ with( all ){
                 }
             }
         }
-        
-        //check collide on x
-        /*if ( !(
-                bbox_left > n_x2 or
-                bbox_right < n_x1 or
-                bbox_top > o_y2 or
-                bbox_bottom < o_y1
-            )
-        ){
-            //break out of the intersection of the object is a fence with no collision
-            if ( object_get_name(object_index) == "obj_fence" ){
-                if ( obj_player.size == 32 ){
-                    image_index = 1;
-                    collides = false;
-                    break;
-                }
-            }
-            if ( collides ){
-                xx = originalx;
-            }
-        }*/
-    
-        //check collide on y
-        /*if ( !(
-                bbox_left > o_x2 or
-                bbox_right < o_x1 or
-                bbox_top > n_y2 or
-                bbox_bottom < n_y1
-            )
-        ){
-            //break out of the intersection of the object is a fence with no collision
-            if ( object_get_name(object_index) == "obj_fence" ){
-                if ( obj_player.size == 32 ){
-                    image_index = 1;
-                    collides = false;
-                    break;
-                }
-            }
-            if ( collides ){
-                yy = originaly;
-            }
-        }*/
     }
 }
 

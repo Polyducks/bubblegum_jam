@@ -5,10 +5,43 @@
   </Configs>
   <NewExtensions/>
   <sounds name="sound">
-    <sound>sound\snd_main_loop</sound>
-    <sound>sound\snd_burp</sound>
-    <sound>sound\snd_grow</sound>
-    <sound>sound\snd_shrink</sound>
+    <sounds name="friend">
+      <sound>sound\snd_0_01</sound>
+      <sound>sound\snd_0_02</sound>
+      <sound>sound\snd_0_03</sound>
+      <sound>sound\snd_0_04</sound>
+      <sound>sound\snd_0_05</sound>
+      <sound>sound\snd_1_01</sound>
+      <sound>sound\snd_1_02</sound>
+      <sound>sound\snd_1_03</sound>
+      <sound>sound\snd_1_04</sound>
+      <sound>sound\snd_1_05</sound>
+      <sound>sound\snd_2_01</sound>
+      <sound>sound\snd_2_02</sound>
+      <sound>sound\snd_2_03</sound>
+      <sound>sound\snd_2_04</sound>
+      <sound>sound\snd_3_01</sound>
+      <sound>sound\snd_3_02</sound>
+      <sound>sound\snd_3_03</sound>
+      <sound>sound\snd_3_04</sound>
+      <sound>sound\snd_3_05</sound>
+      <sound>sound\snd_3_06</sound>
+      <sound>sound\snd_conversation_01</sound>
+      <sound>sound\snd_conversation_02</sound>
+      <sound>sound\snd_conversation_03</sound>
+      <sound>sound\snd_conversation_04</sound>
+    </sounds>
+    <sounds name="fence">
+      <sound>sound\snd_fence_01</sound>
+      <sound>sound\snd_fence_02</sound>
+      <sound>sound\snd_fence_03</sound>
+      <sound>sound\snd_fence_04</sound>
+      <sound>sound\snd_fence_05</sound>
+      <sound>sound\snd_fence_06</sound>
+      <sound>sound\snd_fence_07</sound>
+      <sound>sound\snd_fence_08</sound>
+    </sounds>
+    <sound>sound\snd_music_loop</sound>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -62,6 +95,7 @@
       <script>scripts\scr_friend_draw.gml</script>
       <script>scripts\scr_friend_suck.gml</script>
       <script>scripts\scr_friend_spit.gml</script>
+      <script>scripts\scr_friend_play_emote_sound.gml</script>
     </scripts>
     <scripts name="helper functions">
       <script>scripts\scr_get_input.gml</script>
@@ -69,6 +103,7 @@
       <script>scripts\scr_destroy_speech_bubble.gml</script>
       <script>scripts\scr_get_face.gml</script>
     </scripts>
+    <script>scripts\scr_fence_destroy.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>

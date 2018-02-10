@@ -16,9 +16,7 @@ with( all ){
             //break out of the intersection of the object is a fence with no collision
             if ( object_get_name(object_index) == "obj_fence" ){
                 if ( obj_player.size == 32 ){
-                    image_index = 1;
-                    collides = false;
-                    break;
+                    scr_fence_destroy();
                 }
             }
             if ( collides ){
