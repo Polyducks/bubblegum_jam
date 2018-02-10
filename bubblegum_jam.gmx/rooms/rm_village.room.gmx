@@ -69,7 +69,7 @@ audio_play_sound( snd_music_loop, 100, true );</code>
   </views>
   <instances>
     <instance objName="obj_camera" x="392" y="104" name="inst_17949CF7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_player" x="768" y="776" name="inst_981A3525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_player" x="912" y="576" name="inst_981A3525" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_spaceship" x="768" y="752" name="inst_FB5F77AF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_friend" x="840" y="768" name="inst_EEFAD36D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fence" x="896" y="656" name="inst_B9FAB131" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -80,18 +80,18 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <instance objName="obj_friend" x="936" y="624" name="inst_9F569DCF" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="832" y="736" name="inst_8FF52BAE" locked="0" code="" scaleX="2" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="832" y="688" name="inst_898F85D5" locked="0" code="" scaleX="2" scaleY="0.516129016876221" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="832" y="592" name="inst_8D271DB4" locked="0" code="" scaleX="0.5" scaleY="3" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="848" y="592" name="inst_0F337921" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="944" y="608" name="inst_1399BD90" locked="0" code="" scaleX="0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="832" y="640" name="inst_8D271DB4" locked="0" code="" scaleX="0.5" scaleY="1.54838705062866" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="832" y="592" name="inst_0F337921" locked="0" code="" scaleX="3.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="944" y="512" name="inst_1399BD90" locked="0" code="" scaleX="0.5" scaleY="4.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="880" y="624" name="inst_A9D29EB7" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="864" y="624" name="inst_91FD05B1" locked="0" code="" scaleX="0.5" scaleY="1.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="880" y="656" name="inst_E6D06E41" locked="0" code="" scaleX="0.5" scaleY="0.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="832" y="784" name="inst_7A2B4EE8" locked="0" code="" scaleX="2" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="832" y="784" name="inst_7A2B4EE8" locked="0" code="" scaleX="3" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_fence" x="816" y="784" name="inst_CA348221" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fence" x="800" y="784" name="inst_0E38191F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="784" y="560" name="inst_05855BDF" locked="0" code="" scaleX="1.5" scaleY="4.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="832" y="560" name="inst_2D7E3DA5" locked="0" code="" scaleX="2" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="736" y="592" name="inst_87B3D63D" locked="0" code="" scaleX="1.5" scaleY="3" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="784" y="688" name="inst_05855BDF" locked="0" code="" scaleX="1.54838705062866" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="752" y="560" name="inst_2D7E3DA5" locked="0" code="" scaleX="1.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="736" y="592" name="inst_87B3D63D" locked="0" code="" scaleX="2" scaleY="3" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="704" y="608" name="inst_E3373F02" locked="0" code="" scaleX="1" scaleY="2.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="872" y="736" name="inst_DF38FB20" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="720" y="752" name="inst_C780EB11" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -101,7 +101,7 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <instance objName="obj_wall" x="624" y="784" name="inst_F7D1DD6D" locked="0" code="" scaleX="5.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="704" y="832" name="inst_FD2D9412" locked="0" code="" scaleX="0.5" scaleY="1.03225803375244" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="704" y="864" name="inst_BEC60EC3" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_wall" x="736" y="864" name="inst_B37BC5F5" locked="0" code="" scaleX="4" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="736" y="864" name="inst_B37BC5F5" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="832" y="800" name="inst_73DFA2B2" locked="0" code="" scaleX="1" scaleY="2" colour="4294967295" rotation="0"/>
     <instance objName="obj_fence" x="560" y="752" name="inst_B767E0C8" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fence" x="576" y="752" name="inst_DAA02A0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -218,6 +218,16 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <instance objName="obj_wall" x="944" y="1232" name="inst_5D7D3A81" locked="0" code="" scaleX="1.5" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="944" y="1200" name="inst_8C4950F0" locked="0" code="" scaleX="1" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="944" y="1168" name="inst_106E510E" locked="0" code="" scaleX="1.5" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="672" y="752" name="inst_AC83ACC6" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="672" y="720" name="inst_DA01023F" locked="0" code="" scaleX="0.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="784" y="864" name="inst_9A86A05B" locked="0" code="" scaleX="2.5" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="800" y="624" name="inst_468ED3C9" locked="0" code="" scaleX="2" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="800" y="512" name="inst_2B5F5A85" locked="0" code="" scaleX="0.5" scaleY="3.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="816" y="512" name="inst_56ACB9D9" locked="0" code="" scaleX="4" scaleY="0.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_wall" x="800" y="640" name="inst_7E885F29" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
+    <instance objName="obj_spaceship" x="912" y="544" name="inst_726627F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="864" y="541" name="inst_E40A5944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tree" x="837" y="559" name="inst_75F7EEC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles>
     <tile bgName="bg_tiles_village_foreground" x="880" y="656" w="16" h="16" xo="48" yo="32" id="10000204" name="inst_38E8DFC4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -229,8 +239,6 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_background" x="784" y="672" w="16" h="16" xo="16" yo="112" id="10000230" name="inst_A6B4E136" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="784" y="656" w="16" h="16" xo="16" yo="112" id="10000231" name="inst_E0E9446A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="800" y="656" w="16" h="16" xo="16" yo="112" id="10000232" name="inst_3BAB0CCC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="800" y="640" w="16" h="16" xo="16" yo="112" id="10000233" name="inst_84923DD4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="784" y="640" w="16" h="16" xo="16" yo="112" id="10000234" name="inst_A2646CFC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="768" y="640" w="16" h="16" xo="16" yo="112" id="10000235" name="inst_8170F5BB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="768" y="656" w="16" h="16" xo="16" yo="112" id="10000236" name="inst_2136BD34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="752" y="656" w="16" h="16" xo="16" yo="112" id="10000238" name="inst_ADCE8B64" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -241,31 +249,6 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_background" x="720" y="640" w="16" h="16" xo="16" yo="112" id="10000245" name="inst_959266D2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="816" y="672" w="16" h="16" xo="32" yo="112" id="10000249" name="inst_D433EE52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="816" y="656" w="16" h="16" xo="32" yo="112" id="10000250" name="inst_1DE6D168" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="816" y="640" w="16" h="16" xo="32" yo="112" id="10000251" name="inst_D2C4B131" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="816" y="624" w="16" h="16" xo="32" yo="112" id="10000252" name="inst_1A022EC8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="816" y="608" w="16" h="16" xo="32" yo="112" id="10000253" name="inst_860DF858" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="816" y="592" w="16" h="16" xo="32" yo="112" id="10000254" name="inst_DBC25EAE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="832" y="576" w="16" h="16" xo="16" yo="128" id="10000255" name="inst_4F21FBA6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="848" y="576" w="16" h="16" xo="16" yo="128" id="10000256" name="inst_ED19A087" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="864" y="576" w="16" h="16" xo="16" yo="128" id="10000257" name="inst_389E28C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="880" y="576" w="16" h="16" xo="32" yo="128" id="10000258" name="inst_55D53CEC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="880" y="560" w="16" h="16" xo="32" yo="96" id="10000262" name="inst_91DA1159" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="864" y="560" w="16" h="16" xo="16" yo="96" id="10000263" name="inst_9BFA52DB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="848" y="560" w="16" h="16" xo="16" yo="96" id="10000264" name="inst_D5F2C1FB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="832" y="560" w="16" h="16" xo="16" yo="96" id="10000265" name="inst_774FCF63" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="816" y="560" w="16" h="16" xo="16" yo="96" id="10000266" name="inst_E864DE32" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="800" y="560" w="16" h="16" xo="16" yo="96" id="10000267" name="inst_8B7D4679" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="784" y="560" w="16" h="16" xo="0" yo="96" id="10000268" name="inst_CA652008" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="784" y="576" w="16" h="16" xo="0" yo="112" id="10000269" name="inst_CBE8B458" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="768" y="592" w="16" h="16" xo="16" yo="96" id="10000270" name="inst_8284AD26" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="752" y="592" w="16" h="16" xo="16" yo="96" id="10000271" name="inst_2E7B057B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="816" y="576" w="16" h="16" xo="16" yo="112" id="10000273" name="inst_1DA5B35F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="800" y="576" w="16" h="16" xo="16" yo="112" id="10000274" name="inst_59193237" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="800" y="592" w="16" h="16" xo="16" yo="112" id="10000275" name="inst_35473AB8" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="784" y="624" w="16" h="16" xo="16" yo="112" id="10000277" name="inst_7DD90554" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="800" y="608" w="16" h="16" xo="16" yo="112" id="10000278" name="inst_F7137BD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="800" y="624" w="16" h="16" xo="16" yo="112" id="10000279" name="inst_BBC4E4A3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="784" y="608" w="16" h="16" xo="16" yo="112" id="10000280" name="inst_24DDBF22" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="768" y="608" w="16" h="16" xo="16" yo="112" id="10000281" name="inst_C39D9619" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="768" y="624" w="16" h="16" xo="16" yo="112" id="10000282" name="inst_E587C870" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="752" y="624" w="16" h="16" xo="16" yo="112" id="10000283" name="inst_7B359045" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -302,14 +285,10 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_background" x="816" y="880" w="16" h="16" xo="16" yo="128" id="10000336" name="inst_7A6F380A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="800" y="880" w="16" h="16" xo="16" yo="128" id="10000337" name="inst_50EBB0B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="784" y="880" w="16" h="16" xo="16" yo="128" id="10000338" name="inst_1423A89D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="768" y="880" w="16" h="16" xo="16" yo="128" id="10000339" name="inst_8B8C91B0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="752" y="880" w="16" h="16" xo="16" yo="128" id="10000340" name="inst_B865A976" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="736" y="880" w="16" h="16" xo="16" yo="128" id="10000341" name="inst_D99EDF11" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="720" y="880" w="16" h="16" xo="0" yo="128" id="10000342" name="inst_A01D9D00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="720" y="864" w="16" h="16" xo="0" yo="96" id="10000343" name="inst_AA818CC3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="736" y="864" w="16" h="16" xo="16" yo="96" id="10000344" name="inst_0D61C972" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="752" y="864" w="16" h="16" xo="16" yo="96" id="10000345" name="inst_6730D01C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="768" y="864" w="16" h="16" xo="16" yo="96" id="10000346" name="inst_0E93B4DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="784" y="864" w="16" h="16" xo="16" yo="96" id="10000347" name="inst_DB26D9B4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="800" y="864" w="16" h="16" xo="16" yo="96" id="10000348" name="inst_ACF74210" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="816" y="864" w="16" h="16" xo="16" yo="96" id="10000349" name="inst_CBE20C4E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -318,7 +297,6 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_background" x="832" y="848" w="16" h="16" xo="0" yo="112" id="10000352" name="inst_C6CAB73B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="832" y="864" w="16" h="16" xo="0" yo="144" id="10000354" name="inst_387A95A5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="736" y="608" w="16" h="16" xo="0" yo="144" id="10000355" name="inst_653E16DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_background" x="784" y="592" w="16" h="16" xo="0" yo="144" id="10000356" name="inst_84947D3A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="784" y="784" w="16" h="16" xo="48" yo="32" id="10000357" name="inst_60DADD6A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="720" y="896" w="16" h="16" xo="48" yo="32" id="10000370" name="inst_AE543398" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="720" y="848" w="16" h="16" xo="96" yo="80" id="10000371" name="inst_81C0AADC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -338,7 +316,6 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_background" x="640" y="848" w="16" h="16" xo="0" yo="16" id="10000448" name="inst_723DBA28" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="672" y="848" w="16" h="16" xo="16" yo="0" id="10000451" name="inst_08956722" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="656" y="864" w="16" h="16" xo="0" yo="16" id="10000454" name="inst_858C5222" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_foreground" x="880" y="784" w="16" h="16" xo="48" yo="32" id="10000458" name="inst_C2779758" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="688" y="800" w="16" h="16" xo="112" yo="0" id="10000460" name="inst_38A879C9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="560" y="848" w="16" h="16" xo="48" yo="80" id="10000462" name="inst_5284547E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="608" y="800" w="16" h="16" xo="112" yo="80" id="10000464" name="inst_9A742FE6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -347,7 +324,6 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_background" x="912" y="1024" w="16" h="16" xo="96" yo="0" id="10000509" name="inst_A4F47A6E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="928" y="1056" w="16" h="16" xo="32" yo="32" id="10000511" name="inst_37E51DF7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="720" y="784" w="48" h="48" xo="0" yo="48" id="10000513" name="inst_535A0B37" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_foreground" x="688" y="784" w="16" h="16" xo="0" yo="0" id="10000516" name="inst_617AA3F0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="672" y="784" w="16" h="16" xo="0" yo="0" id="10000517" name="inst_00A1E2C1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="656" y="784" w="16" h="16" xo="0" yo="0" id="10000518" name="inst_FF87B402" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="640" y="784" w="16" h="16" xo="0" yo="0" id="10000519" name="inst_816DAE5C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -406,14 +382,12 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_foreground" x="864" y="736" w="16" h="16" xo="0" yo="0" id="10000579" name="inst_9B9B1D2C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="848" y="736" w="16" h="16" xo="0" yo="0" id="10000580" name="inst_DAC5E6D0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="832" y="736" w="16" h="16" xo="32" yo="16" id="10000581" name="inst_598EDC57" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_foreground" x="832" y="592" w="16" h="16" xo="0" yo="16" id="10000582" name="inst_BD8FEBCA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="848" y="592" w="16" h="16" xo="0" yo="0" id="10000583" name="inst_65DF8ED3" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="864" y="592" w="16" h="16" xo="0" yo="0" id="10000584" name="inst_539B117A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="880" y="592" w="16" h="16" xo="0" yo="0" id="10000585" name="inst_D68207FA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="896" y="592" w="16" h="16" xo="0" yo="0" id="10000586" name="inst_A1D04903" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="912" y="592" w="16" h="16" xo="0" yo="0" id="10000587" name="inst_BC1F7E22" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="928" y="592" w="16" h="16" xo="0" yo="0" id="10000588" name="inst_B0F51CCF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_foreground" x="944" y="592" w="16" h="16" xo="16" yo="16" id="10000589" name="inst_846CEF00" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="944" y="608" w="16" h="16" xo="16" yo="0" id="10000590" name="inst_294E528C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="944" y="624" w="16" h="16" xo="16" yo="0" id="10000591" name="inst_9F7C3A7D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="944" y="640" w="16" h="16" xo="16" yo="0" id="10000592" name="inst_6AB4266B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -460,14 +434,11 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_foreground" x="960" y="800" w="16" h="16" xo="16" yo="0" id="10000653" name="inst_32BC2BF2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="960" y="816" w="16" h="16" xo="16" yo="0" id="10000654" name="inst_2E17CB04" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="944" y="784" w="16" h="16" xo="16" yo="32" id="10000655" name="inst_F3BFA8C2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_foreground" x="928" y="784" w="16" h="16" xo="32" yo="16" id="10000656" name="inst_E0141CB5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="928" y="656" w="16" h="16" xo="32" yo="16" id="10000657" name="inst_58391BE0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="864" y="624" w="16" h="16" xo="0" yo="16" id="10000659" name="inst_34CAE33D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="880" y="624" w="16" h="16" xo="48" yo="32" id="10000660" name="inst_8AA7097B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="864" y="656" w="16" h="16" xo="0" yo="32" id="10000662" name="inst_83773414" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="864" y="640" w="16" h="16" xo="16" yo="0" id="10000663" name="inst_4CC15D1A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_foreground" x="832" y="608" w="16" h="16" xo="16" yo="0" id="10000664" name="inst_ECC9EB26" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
-    <tile bgName="bg_tiles_village_foreground" x="832" y="624" w="16" h="16" xo="16" yo="0" id="10000665" name="inst_068B17D4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="832" y="640" w="16" h="16" xo="16" yo="0" id="10000666" name="inst_479ED952" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="832" y="656" w="16" h="16" xo="16" yo="0" id="10000667" name="inst_335CDAAD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_foreground" x="832" y="672" w="16" h="16" xo="16" yo="0" id="10000668" name="inst_5BBE7681" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
@@ -704,6 +675,60 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <tile bgName="bg_tiles_village_background" x="976" y="1136" w="16" h="16" xo="112" yo="0" id="10000988" name="inst_A2C1CC3C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="944" y="1216" w="16" h="16" xo="80" yo="80" id="10000989" name="inst_19C443E5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
     <tile bgName="bg_tiles_village_background" x="928" y="1184" w="16" h="16" xo="112" yo="48" id="10000990" name="inst_BBC6C9B4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="688" y="768" w="16" h="16" xo="16" yo="16" id="10001009" name="inst_C1B887D7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="672" y="768" w="16" h="16" xo="0" yo="32" id="10001010" name="inst_8DE80F9E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="672" y="752" w="16" h="16" xo="16" yo="0" id="10001011" name="inst_DF13F1F7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="672" y="736" w="16" h="16" xo="16" yo="0" id="10001012" name="inst_80202A14" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="672" y="720" w="16" h="16" xo="48" yo="16" id="10001013" name="inst_BE715A31" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="688" y="784" w="16" h="16" xo="96" yo="16" id="10001014" name="inst_21F42731" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="848" y="624" w="16" h="16" xo="64" yo="32" id="10001015" name="inst_785B05E4" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="880" y="784" w="16" h="16" xo="0" yo="0" id="10001016" name="inst_542989E9" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="896" y="784" w="16" h="16" xo="0" yo="0" id="10001017" name="inst_BECDB215" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="912" y="784" w="16" h="16" xo="0" yo="0" id="10001018" name="inst_E97F828F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="928" y="784" w="16" h="16" xo="0" yo="0" id="10001019" name="inst_39BAB43A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="832" y="624" w="16" h="16" xo="16" yo="16" id="10001020" name="inst_EDE32B93" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="816" y="624" w="16" h="16" xo="0" yo="0" id="10001022" name="inst_2B405B18" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="624" w="16" h="16" xo="0" yo="32" id="10001023" name="inst_45A3C80C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="608" w="16" h="16" xo="16" yo="0" id="10001024" name="inst_85ACD0C0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="592" w="16" h="16" xo="16" yo="0" id="10001025" name="inst_77A16F46" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="576" w="16" h="16" xo="16" yo="0" id="10001026" name="inst_AEA7CCD5" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="560" w="16" h="16" xo="16" yo="0" id="10001027" name="inst_B08F6D84" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="544" w="16" h="16" xo="16" yo="0" id="10001028" name="inst_1F293AA0" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="528" w="16" h="16" xo="16" yo="0" id="10001029" name="inst_8C797BAA" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="800" y="512" w="16" h="16" xo="0" yo="16" id="10001030" name="inst_8E279473" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="816" y="512" w="16" h="16" xo="0" yo="0" id="10001031" name="inst_16C31829" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="832" y="512" w="16" h="16" xo="0" yo="0" id="10001032" name="inst_5C4B0B52" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="848" y="512" w="16" h="16" xo="0" yo="0" id="10001033" name="inst_47248453" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="864" y="512" w="16" h="16" xo="0" yo="0" id="10001034" name="inst_34185563" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="880" y="512" w="16" h="16" xo="0" yo="0" id="10001035" name="inst_400535AC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="896" y="512" w="16" h="16" xo="0" yo="0" id="10001036" name="inst_169229DC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="912" y="512" w="16" h="16" xo="0" yo="0" id="10001037" name="inst_C0DA81B1" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="928" y="512" w="16" h="16" xo="0" yo="0" id="10001038" name="inst_84A647DF" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="944" y="512" w="16" h="16" xo="16" yo="16" id="10001039" name="inst_24C6C5DE" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="944" y="528" w="16" h="16" xo="16" yo="0" id="10001040" name="inst_33025849" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="944" y="544" w="16" h="16" xo="16" yo="0" id="10001041" name="inst_EDC0C4B2" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="944" y="560" w="16" h="16" xo="16" yo="0" id="10001042" name="inst_FB7DC238" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="944" y="576" w="16" h="16" xo="16" yo="0" id="10001043" name="inst_5CCD141C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="944" y="592" w="16" h="16" xo="80" yo="16" id="10001044" name="inst_11777E47" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="752" y="560" w="16" h="16" xo="0" yo="96" id="10001045" name="inst_D412A97B" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="752" y="576" w="16" h="16" xo="0" yo="112" id="10001046" name="inst_815B949C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="752" y="592" w="16" h="16" xo="0" yo="144" id="10001048" name="inst_3E2861BD" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="768" y="576" w="16" h="16" xo="16" yo="112" id="10001050" name="inst_22020B34" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="768" y="592" w="16" h="16" xo="16" yo="112" id="10001051" name="inst_AA536B4E" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="768" y="560" w="16" h="16" xo="16" yo="96" id="10001054" name="inst_50A15FF6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="784" y="608" w="16" h="16" xo="32" yo="112" id="10001057" name="inst_EB3431B7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="784" y="592" w="16" h="16" xo="32" yo="112" id="10001058" name="inst_4822AF33" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="784" y="576" w="16" h="16" xo="32" yo="112" id="10001059" name="inst_6BACDBC7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="784" y="560" w="16" h="16" xo="32" yo="96" id="10001060" name="inst_B0BCC23C" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="784" y="624" w="16" h="16" xo="32" yo="112" id="10001062" name="inst_962955EC" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_foreground" x="832" y="592" w="16" h="16" xo="32" yo="16" id="10001063" name="inst_3946D614" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="800" y="640" w="16" h="16" xo="16" yo="96" id="10001064" name="inst_5C8A96F6" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="816" y="640" w="16" h="16" xo="32" yo="96" id="10001066" name="inst_228165E7" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="784" y="640" w="16" h="16" xo="16" yo="144" id="10001067" name="inst_47B4AD4D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="928" y="528" w="16" h="16" xo="112" yo="0" id="10001068" name="inst_3EC8593A" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="848" y="544" w="16" h="16" xo="0" yo="64" id="10001069" name="inst_61A4239F" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="864" y="544" w="16" h="16" xo="48" yo="64" id="10001071" name="inst_5F4487AB" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
+    <tile bgName="bg_tiles_village_background" x="816" y="544" w="16" h="16" xo="80" yo="80" id="10001074" name="inst_8FA7650D" depth="1000000" locked="0" colour="4294967295" scaleX="1" scaleY="1"/>
   </tiles>
   <PhysicsWorld>-1</PhysicsWorld>
   <PhysicsWorldTop>0</PhysicsWorldTop>
