@@ -42,6 +42,11 @@
       <sound>sound\snd_fence_08</sound>
     </sounds>
     <sound>sound\snd_music_loop</sound>
+    <sounds name="player">
+      <sound>sound\snd_confirmation</sound>
+      <sound>sound\snd_grow</sound>
+      <sound>sound\snd_shrink</sound>
+    </sounds>
   </sounds>
   <sprites name="sprites">
     <sprites name="player">
@@ -123,6 +128,10 @@
   <help>
     <rtf>help.rtf</rtf>
   </help>
+  <audiogroups name="audiogroups">
+    <audiogroup name="audiogroup_default"/>
+    <audiogroup name="friend_emote"/>
+  </audiogroups>
   <TutorialState>
     <IsTutorial>0</IsTutorial>
     <TutorialName></TutorialName>

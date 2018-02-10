@@ -3,11 +3,10 @@ if ( !size_changing ){
     was_size = size;
     if ( was_size == 16 ){
         new_size = 32;
-        //audio_play_sound(snd_grow, 20, false);
+        audio_play_sound(snd_grow, 20, false);
     }else{
         new_size = 16;
-        //audio_play_sound(snd_burp, 20, false);
-        //audio_play_sound(snd_shrink, 20, false);
+        audio_play_sound(snd_shrink, 20, false);
     }
     size_changing = true;
     alarm[0] = 30;
