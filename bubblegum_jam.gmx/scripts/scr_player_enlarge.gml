@@ -3,11 +3,11 @@ if ( !size_changing ){
     was_size = size;
     if ( was_size == 16 ){
         new_size = 32;
-        audio_sound_gain( snd_grow, 0.22, 0 );
+        audio_sound_gain( snd_grow, 0.07, 0 );
         audio_play_sound(snd_grow, 20, false);
     }else{
         new_size = 16;
-        audio_sound_gain( snd_shrink, 0.22, 0 );
+        audio_sound_gain( snd_shrink, 0.07, 0 );
         audio_play_sound(snd_shrink, 20, false);
     }
     size_changing = true;
