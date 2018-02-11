@@ -50,13 +50,18 @@ ypos = view_hport - (sprite_height*3) - 3;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///Render GUI
-//var h = sprite_get_height(spr_gui_stomach);
-//var resize_scale = view_hport / (h-1);
-//ROUNDING ERROR DUE TO PIXEL ROUNDING
-//draw_sprite_ext( spr_gui_stomach, 0, view_wport, view_hport, resize_scale, resize_scale, 0, c_white, 1 );
-
-draw_sprite_ext( spr_gui_emote_banner,0,xpos,ypos,3,3,0,c_white,1);
+            <string>draw_sprite_ext( spr_gui_emote_banner,0,xpos,ypos,3,3,0,c_white,1);
+draw_set_font(fnt_larua);
+var xx = 10;
+var yy = 10;
+var offset = 2;
+draw_set_colour(c_black);
+draw_text_ext(xx-offset, yy, "SCORE:" + string(score), 0, view_wport[0]);
+draw_text_ext(xx+offset, yy, "SCORE:" + string(score), 0, view_wport[0]);
+draw_text_ext(xx, yy-offset, "SCORE:" + string(score), 0, view_wport[0]);
+draw_text_ext(xx, yy+offset, "SCORE:" + string(score), 0, view_wport[0]);
+draw_set_colour(c_white);
+draw_text_ext(xx, yy, "SCORE:" + string(score), 0, view_wport[0]);
 </string>
           </argument>
         </arguments>

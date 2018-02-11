@@ -30,6 +30,7 @@ image_speed = 0;
 occupied = false;
 collides = true;
 scr_add_to_colliders_array(self);
+blink_counter = 0;
 </string>
           </argument>
         </arguments>
@@ -56,6 +57,20 @@ scr_add_to_colliders_array(self);
 depth = -y;
 if ( occupied ){
     image_index = 1;
+}else{
+    blink_counter++;
+    if ( blink_counter &gt; (room_speed) ){
+        blink_counter = 0;
+    }
+    if ( distance_to_object(obj_player)&lt;16 and obj_player.size==32 ){
+        if( blink_counter &lt; (room_speed-10) ){
+            image_index = 2;
+        }else{
+            image_index = 0;
+        }
+    }else{
+        image_index = 0;
+    }
 }
 </string>
           </argument>

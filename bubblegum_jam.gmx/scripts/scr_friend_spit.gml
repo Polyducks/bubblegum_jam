@@ -37,8 +37,17 @@ var colliders_length = ds_list_size( global.colliders );
 for ( var i = 0; i < colliders_length; i++ ){
     inst = global.colliders[| i];
     //friends can fly over fences;
-    if ( object_get_name(inst.object_index) != "obj_fence" ){   
-        if ( place_meeting( xx, yy, inst )){
+    if ( object_get_name(inst.object_index) != "obj_fence" ){
+        var xAdjust = 0;
+        var yAdjust = 0;
+        if ( hspd != 0 ){
+            yAdjust = 6;
+        }
+        if ( vspd != 0 ){
+            xAdjust = 6;
+        }
+        if( collision_rectangle( bbox_left+xAdjust, bbox_top+yAdjust, bbox_right-xAdjust, bbox_bottom-yAdjust, inst, false, true )){
+        //if ( place_meeting( xx, yy, inst )){
             no_collision = false;
             break;
         }
