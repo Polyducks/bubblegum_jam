@@ -222,7 +222,6 @@ audio_play_sound( snd_music_loop, 100, true );</code>
     <instance objName="obj_wall" x="800" y="512" name="inst_2B5F5A85" locked="0" code="" scaleX="0.5" scaleY="3.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="816" y="512" name="inst_56ACB9D9" locked="0" code="" scaleX="4" scaleY="0.5" colour="4294967295" rotation="0"/>
     <instance objName="obj_wall" x="800" y="640" name="inst_7E885F29" locked="0" code="" scaleX="1" scaleY="1.5" colour="4294967295" rotation="0"/>
-    <instance objName="obj_spaceship" x="912" y="544" name="inst_726627F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="864" y="541" name="inst_E40A5944" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="837" y="559" name="inst_75F7EEC4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
