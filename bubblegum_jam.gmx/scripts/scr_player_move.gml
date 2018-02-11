@@ -2,7 +2,9 @@
 
 //Enlarge on space key
 if ( space_key ){
-    state = scr_player_enlarge;
+    if ( size == 32 ){
+        state = scr_player_enlarge;
+    }
 }
 if ( z_key or x_key or c_key or v_key ){
     scr_player_emote();
