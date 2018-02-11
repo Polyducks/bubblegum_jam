@@ -28,6 +28,7 @@
             <string>///Set initial properties
 image_speed = 0;
 collides = true;
+scr_add_to_colliders_array(self);
 </string>
           </argument>
         </arguments>

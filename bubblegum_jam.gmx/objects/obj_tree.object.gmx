@@ -28,6 +28,7 @@
             <string>///initialise
 collides = true;
 depth = -y;
+scr_add_to_colliders_array(self);
 </string>
           </argument>
         </arguments>

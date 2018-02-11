@@ -27,6 +27,7 @@
             <kind>1</kind>
             <string>///Initialise
 collides = true;
+scr_add_to_colliders_array(self);
 </string>
           </argument>
         </arguments>

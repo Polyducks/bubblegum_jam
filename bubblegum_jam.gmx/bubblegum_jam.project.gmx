@@ -110,7 +110,9 @@
       <script>scripts\scr_get_face.gml</script>
     </scripts>
     <script>scripts\scr_fence_destroy.gml</script>
-    <script>scripts\scr_add_to_colliders_array.gml</script>
+    <scripts name="colliders_array">
+      <script>scripts\scr_add_to_colliders_array.gml</script>
+    </scripts>
   </scripts>
   <objects name="objects">
     <object>objects\obj_player</object>
@@ -125,6 +127,7 @@
     <object>objects\obj_tree</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\initialisation_room</room>
     <room>rooms\rm_village</room>
   </rooms>
   <help>
