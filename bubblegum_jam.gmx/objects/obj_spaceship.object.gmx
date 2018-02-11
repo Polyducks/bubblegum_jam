@@ -26,6 +26,8 @@
           <argument>
             <kind>1</kind>
             <string>///Initialise
+image_speed = 0;
+occupied = false;
 collides = true;
 scr_add_to_colliders_array(self);
 </string>
@@ -52,6 +54,9 @@ scr_add_to_colliders_array(self);
             <kind>1</kind>
             <string>//step by step check
 depth = -y;
+if ( occupied ){
+    image_index = 1;
+}
 </string>
           </argument>
         </arguments>

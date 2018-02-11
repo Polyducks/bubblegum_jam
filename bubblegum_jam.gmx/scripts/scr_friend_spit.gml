@@ -18,19 +18,34 @@ switch(face){
     break;
 }
 
-var xx = x+hspd;
-var yy = y+vspd;
+var xx = floor(x+hspd);
+var yy = floor(y+vspd);
 
 spit_move += spit_speed;
 
-var spaceship = instance_place( floor(xx), floor(yy), obj_spaceship );
-if ( spaceship != noone ){
+var spaceship = instance_place( xx, yy, obj_spaceship );
+if ( spaceship != noone and !spaceship.occupied ){
+    audio_sound_gain( snd_confirmation, 0.5, 0 );
+    audio_play_sound(snd_confirmation, 1, false);
+    spaceship.occupied = true;
     score++;
     instance_destroy();
 }
 
-var inst = instance_place( floor(xx), floor(yy), obj_wall );
-if ( inst == noone ){
+var no_collision = true;
+var colliders_length = ds_list_size( global.colliders );
+for ( var i = 0; i < colliders_length; i++ ){
+    inst = global.colliders[| i];
+    //friends can fly over fences;
+    if ( object_get_name(inst.object_index) != "obj_fence" ){   
+        if ( place_meeting( xx, yy, inst )){
+            no_collision = false;
+            break;
+        }
+    }
+}
+
+if ( no_collision ){
     x = xx;
     y = yy;
 }else{
