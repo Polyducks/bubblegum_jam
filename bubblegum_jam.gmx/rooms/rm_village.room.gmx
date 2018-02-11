@@ -10,7 +10,8 @@
   <persistent>0</persistent>
   <colour>16777215</colour>
   <showcolour>-1</showcolour>
-  <code>texture_set_interpolation(false);
+  <code>audio_master_gain(1);
+texture_set_interpolation(false);
 for(var xx=0; xx&lt;room_width;xx+=16;)
 for(var yy=0; yy&lt;room_height; yy+=16;)
 {
